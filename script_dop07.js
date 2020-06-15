@@ -18,7 +18,7 @@ function infoWeek() {
         } else console.log(week[i]);
     }
 
-    for(i = 6; i>4; i--) {
+    for(i = 5; i < 7; i++) {
         str = week[i];
         console.log(`%c${str}`, "font-style: italic");
     }
